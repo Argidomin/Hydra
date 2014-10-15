@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "/var/www/html/casaportuguesa.dev"
+		},
+		{
+			"path": "src/Argidomin/HotelBundle"
+		}
+	]
+}

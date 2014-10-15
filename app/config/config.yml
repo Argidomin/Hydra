@@ -1,10 +1,12 @@
 imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
+    - { resource: services.yml }
+    
 
 framework:
     #esi:             ~
-    #translator:      { fallback: "%locale%" }
+    translator:      { fallback: "%locale%" }
     secret:          "%secret%"
     router:
         resource: "%kernel.root_dir%/config/routing.yml"
@@ -57,8 +59,30 @@ doctrine:
         #     path:     "%database_path%"
 
     orm:
-        auto_generate_proxy_classes: "%kernel.debug%"
+
         auto_mapping: true
+        mappings:
+            gedmo_translatable:
+                type:      annotation
+                prefix:    Gedmo\Translatable\Entity
+                dir:       "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Translatable/Entity"
+                is_bundle: false
+                # el alias es opcional, por defecto se utiliza la clave de este mapeo
+                alias:     GedmoTranslatable
+            gedmo_translator:
+                type:      annotation
+                prefix:    Gedmo\Translator\Entity
+                dir:       "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Translator/Entity"
+                is_bundle: false
+                # el alias es opcional, por defecto se utiliza la clave de este mapeo
+                alias:     GedmoTranslator
+            gedmo_tree:
+                type:      annotation
+                prefix:    Gedmo\Tree\Entity
+                dir:       "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Tree/Entity"
+                is_bundle: false
+                # el alias es opcional, por defecto se utiliza la clave de este mapeo
+                alias:     GedmoTree
 
 # Swiftmailer Configuration
 swiftmailer:
@@ -75,3 +99,13 @@ fos_user:
     user_class: Argidomin\HotelBundle\Entity\Usuarios\Usuarios
 
 #Fin del cofiguración de FOS UserBundle
+
+sonata_block:
+    default_contexts: [cms]
+    blocks:
+        sonata.admin.block.admin_list:
+            contexts:   [admin]
+
+        sonata.block.service.text:   ~
+        sonata.block.service.action: ~
+        sonata.block.service.rss:    ~

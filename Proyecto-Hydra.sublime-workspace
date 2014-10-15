@@ -1,0 +1,654 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"ret	return"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"E",
+				"EF7C00"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"fot",
+				"font-weight"
+			],
+			[
+				"ef",
+				"EF7C00"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/casaportuguesa.dev/src/Argidomin/HotelBundle/Entity/Usuarios/Usuarios.php",
+		"/var/www/html/casaportuguesa.dev/app/config/config.yml",
+		"/var/www/html/casaportuguesa.dev/app/config/security.yml",
+		"/var/www/html/casaportuguesa.dev/src/Argidomin/HotelBundle/Controller/UsuariosController.php",
+		"/var/www/html/casaportuguesa.dev/app/AppKernel.php",
+		"/home/gude/www/hydra.dev/src/Argidomin/UsuariosBundle/Entity/Usuarios.php",
+		"/var/www/html/casaportuguesa.dev/README.md",
+		"/var/www/html/casaportuguesa.dev/composer.json",
+		"/var/www/html/casaportuguesa.dev/app/config/routing_dev.yml",
+		"/var/www/html/casaportuguesa.dev/src/Argidomin/HotelBundle/Resources/views/Usuarios/index.html.twig",
+		"/var/www/html/casaportuguesa.dev/app/config/parameters.yml",
+		"/home/gude/www/hydra.dev/app/config/config.yml",
+		"/home/gude/www/hydra.dev/app/config/security.yml",
+		"/var/www/html/Kart/themes/default-bootstrap/order-opc.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/password.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/product.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/maintenance.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/identity.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/address.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/404.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/cms.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/restricted-country.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/best-sales.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/contact-form.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/manufacturer-list.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/manufacturer.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/modules/blockwishlist/views/templates/front/view.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/modules/carriercompare/template/carriercompare.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/new-products.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/order-address-multishipping.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/order-follow.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/order-slip.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/supplier-list.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/supplier.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/order-payment.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/css/global.css",
+		"/var/www/html/Kart/themes/default-bootstrap/css/order-opc.css",
+		"/var/www/html/Kart/themes/default-bootstrap/sass/order-opc.scss",
+		"/var/www/html/Kart/themes/default-bootstrap/order-carrier.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/modules/blockwishlist/views/templates/front/mywishlist.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/modules/favoriteproducts/views/templates/front/favoriteproducts-account.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/modules/loyalty/views/templates/front/loyalty.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/stores.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/sitemap.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/products-comparison.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/order-detail.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/order-address.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/modules/referralprogram/views/templates/front/program.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/modules/mailalerts/views/templates/front/mailalerts-account.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/modules/cheque/views/templates/front/payment_execution.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/modules/cashondelivery/views/templates/front/validation.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/modules/bankwire/views/templates/front/payment_execution.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/guest-tracking.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/discount.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/css/order-carrier.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/authentication.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/my-account.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/order-confirmation.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/addresses.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/header.tpl",
+		"/var/www/html/Kart/header.tpl",
+		"/home/gude/Documentos/default-bootstrap/css/global.css",
+		"/home/gude/Documentos/default-bootstrap/header.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/history.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/search.tpl",
+		"/var/www/html/Kart/header.php",
+		"/home/gude/Documentos/default-bootstrap/order-opc-new-account.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/order-opc-new-account.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/css/modules/blocksearch/blocksearch.css",
+		"/var/www/html/Kart/modules/blocksearch/blocksearch.css",
+		"/var/www/html/Kart/themes/default-bootstrap/redesSociales.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/shopping-cart-product-line.tpl",
+		"/home/gude/Documentos/default-bootstrap/shopping-cart.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/shopping-cart.tpl",
+		"/home/gude/Descargas/prestashop_1.6.0.9/prestashop/themes/default-bootstrap/shopping-cart.tpl",
+		"/home/gude/Descargas/prestashop_1.6.0.9/prestashop/themes/default-bootstrap/shopping-cart-product-line.tpl",
+		"/home/gude/Descargas/prestashop_1.6.0.9/prestashop/themes/default-bootstrap/category.tpl",
+		"/var/www/html/Kart/themes/default-bootstrap/css/modules/blockcart/blockcart.css",
+		"/var/www/html/Kart/themes/default-bootstrap/modules/blockcart/blockcart.tpl",
+		"/tmp/fz3temp-1/blockcart.css",
+		"/var/www/html/Kart/modules/blockcart/blockcart.tpl",
+		"/var/www/html/Kart/modules/blockcart/blockcart.css",
+		"/var/www/html/Kart/modules/blocklayered/views/templates/admin/add.tpl",
+		"/var/www/html/Kart/classes/order/OrderCartRule.php",
+		"/var/www/html/default-bootstrap/order-address-multishipping-products.tpl",
+		"/var/www/html/default-bootstrap/redesSociales.tpl",
+		"/var/www/html/default-bootstrap/category.tpl",
+		"/var/www/html/default-bootstrap/css/global.css",
+		"/var/www/html/default-bootstrap/header.tpl",
+		"/var/www/html/default-bootstrap/order-return.tpl",
+		"/var/www/html/default-bootstrap/modules/blockcart/blockcart.tpl",
+		"/var/www/html/default-bootstrap/css/modules/homefeatured/homefeatured.css",
+		"/var/www/html/default-bootstrap/css/modules/homeslider/homeslider.css",
+		"/var/www/html/default-bootstrap/css/modules/blockcart/blockcart.css",
+		"/var/www/html/default-bootstrap/order-opc.tpl",
+		"/var/www/html/default-bootstrap/modules/blocksearch/blocksearch.tpl",
+		"/var/www/html/default-bootstrap/css/modules/blocksearch/blocksearch.css",
+		"/var/www/html/default-bootstrap/modules/blocktopmenu/blocktopmenu.tpl",
+		"/var/www/html/default-bootstrap/modules/blocksearch/blocksearch-top.tpl",
+		"/var/www/html/default-bootstrap/shopping-cart.tpl",
+		"/var/www/html/default-bootstrap/modules/loyalty/views/templates/hook/shopping-cart.tpl",
+		"/var/www/html/kart/themes/default-bootstrap/order-opc.tpl",
+		"/var/www/html/kart/themes/default-bootstrap/order-payment.tpl",
+		"/tmp/fz3temp-1/order-payment.tpl",
+		"/var/www/html/kart/themes/default-bootstrap/product.tpl",
+		"/var/www/html/kart/themes/default-bootstrap/modules/productcomments/productcomments-extra.tpl",
+		"/var/www/html/kart/themes/default-bootstrap/js/modules/productcomments/js/productcomments.js",
+		"/var/www/html/kart/themes/default-bootstrap/modules/productcomments/productcomments.tpl",
+		"/var/www/html/kart/themes/default-bootstrap/css/global.css",
+		"/var/www/html/kart/themes/default-bootstrap/order-carrier.tpl",
+		"/var/www/html/kart/themes/default-bootstrap/css/modules/blocktopmenu/css/superfish-modified.css",
+		"/var/www/html/kart/themes/default-bootstrap/global.tpl",
+		"/var/www/html/kart/themes/default-bootstrap/shopping-cart.tpl",
+		"/var/www/html/kart/themes/default-bootstrap/order-opc-new-account.tpl",
+		"/tmp/fz3temp-1/order-opc.tpl",
+		"/tmp/fz3temp-1/order-opc-new-account.tpl",
+		"/tmp/fz3temp-1/shopping-cart.tpl",
+		"/home/gude/Descargas/prestashop_1.6.0.9/prestashop/themes/default-bootstrap/order-opc.tpl",
+		"/var/www/html/kart/themes/default-bootstrap/authentication.tpl",
+		"/var/www/html/kart/themes/default-bootstrap/category-tree-branch.tpl",
+		"/var/www/html/kart/themes/default-bootstrap/order-slip.tpl",
+		"/var/www/html/kart/themes/default-bootstrap/order-steps.tpl",
+		"/home/gude/www/kart/themes/default-bootstrap/order-opc.tpl",
+		"/var/www/html/kart/themes/default-bootstrap/shopping-cart-2.tpl",
+		"/home/gude/www/kart/themes/default-bootstrap/shopping-cart.tpl",
+		"/home/gude/www/kart/themes/default-bootstrap/shopping-cart2.tpl",
+		"/var/www/html/kart/themes/default-bootstrap/shopping-cart2.tpl",
+		"/home/gude/www/kart/themes/default-bootstrap2/order-opc-new-account.tpl"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/var/www/html/hydra.dev/src",
+			"/var/www/html/Kart/themes/default-bootstrap,",
+			"/var/www/html/Kart/themes/default-bootstrap",
+			"<open files>",
+			"/var/www/html/Kart/themes/default-bootstrap",
+			"/var/www/html/Kart",
+			"/var/www/html/kart/themes/default-bootstrap",
+			"/home/gude/www/kart",
+			"/var/www/html/Karts",
+			"/home/gude/www/default-bootstrap",
+			"/home/gude/www/Karts",
+			"/var/www/html/default-bootstrap"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"GestionBundle",
+			"<h1",
+			"name",
+			"h1>",
+			"h1",
+			"</h1>",
+			"h1 class=\"page-heading",
+			"<hr",
+			"<h1 class=\"page-heading\"",
+			"my acount",
+			"padding",
+			"head",
+			"page-heading  product-listing",
+			"br",
+			"class=\"dark\"",
+			"strong",
+			"h2",
+			"layer_cart_row",
+			"h2",
+			"border",
+			"dark",
+			"uppercase",
+			"cat-name",
+			"text-transform: uppercase",
+			"btn-de",
+			"button",
+			"hola mundo",
+			"step-num",
+			"page-heading",
+			"h1",
+			"img ",
+			"font-size: 12",
+			"function mostrar()",
+			"carrito",
+			"Additional information",
+			"First name",
+			"-->",
+			"font-family",
+			"font",
+			"uniform-input",
+			"col-xs-4",
+			"style=position:absolute",
+			"position:absolute",
+			"<nav>",
+			"<nav",
+			"<nav>",
+			"Address1",
+			"Address1_",
+			"-->",
+			"--",
+			"assign",
+			"First name",
+			"first name",
+			"without_tax",
+			" total_price_without_tax",
+			"class=\"price",
+			"price",
+			"delivery",
+			"price.product-price",
+			"<!--<",
+			"PM_CSOC",
+			"id=\"PM_CSOC\"",
+			"fieldset\n",
+			">\n",
+			"<div class=\"parrafo\" align=\"left\">",
+			"company",
+			"font-size: 13px",
+			"dosis",
+			"<nav>",
+			"<!-- Block user information module NAV  -->",
+			"nav ",
+			"nav",
+			"#FBFBFB",
+			"1px",
+			"owl-item",
+			"nav",
+			"PM_CSOC",
+			"Accessories",
+			"accesories",
+			"clearfix owl-carousel owl-theme",
+			"PM_CSOC",
+			"p>",
+			"inform",
+			"Arial, Helvetica, sans-serif",
+			"{l s='Continue shopping'}",
+			"Continue shopping",
+			"col-md",
+			"span",
+			" style",
+			" style=\"width:",
+			"page-subheading",
+			"h3",
+			"align=\"right\"",
+			"style=\"width",
+			"\">",
+			"style=\"width",
+			"style",
+			"type=\"hidden\"",
+			"h3",
+			"nav-tabs",
+			"active",
+			"review"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"GestionHotelBundle",
+			"h3>",
+			"</h3>",
+			"h3 class=\"page-subheading",
+			"",
+			"span",
+			"h3",
+			"none",
+			"",
+			"page-subheading",
+			"h3",
+			"font-size: 14",
+			"col-xs-3",
+			"font-size: 15px",
+			"Dosis",
+			"align=\"left\""
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"app",
+				"app/AppKernel.php"
+			],
+			[
+				"secur",
+				"app/config/security.yml"
+			],
+			[
+				"ap",
+				"app/AppKernel.php"
+			],
+			[
+				"sec",
+				"app/config/security.yml"
+			],
+			[
+				"co",
+				"app/config/config.yml"
+			],
+			[
+				"con",
+				"app/config/config.yml"
+			],
+			[
+				"rede",
+				"default-bootstrap/redesSociales.tpl"
+			],
+			[
+				"gl",
+				"default-bootstrap/css/global.css"
+			],
+			[
+				"pr",
+				"default-bootstrap/product.tpl"
+			],
+			[
+				"order",
+				"default-bootstrap/css/order-opc.css"
+			],
+			[
+				"order-op",
+				"default-bootstrap/sass/order-opc.scss"
+			],
+			[
+				"glo",
+				"default-bootstrap/css/global.css"
+			],
+			[
+				"carr",
+				"default-bootstrap/order-carrier.tpl"
+			],
+			[
+				"my",
+				"default-bootstrap/my-account.tpl"
+			],
+			[
+				"header",
+				"default-bootstrap/header.tpl"
+			],
+			[
+				"he",
+				"Kart/header.tpl"
+			],
+			[
+				"blockse",
+				"Kart/modules/blocksearch/blocksearch.css"
+			],
+			[
+				"hea",
+				"Kart/header.php"
+			],
+			[
+				"blockc",
+				"Kart/modules/blockcart/blockcart.tpl"
+			],
+			[
+				"blockcar",
+				"Kart/modules/blockcart/blockcart.css"
+			],
+			[
+				"cart",
+				"Kart/classes/order/OrderCartRule.php"
+			],
+			[
+				"addtp",
+				"Kart/modules/blocklayered/views/templates/admin/add.tpl"
+			],
+			[
+				"cate",
+				"category.tpl"
+			],
+			[
+				"re",
+				"redesSociales.tpl"
+			],
+			[
+				"catego",
+				"category.tpl"
+			],
+			[
+				"hoomes",
+				"css/modules/homeslider/homeslider.css"
+			],
+			[
+				"home",
+				"css/modules/homefeatured/homefeatured.css"
+			],
+			[
+				"go",
+				"css/global.css"
+			],
+			[
+				"opc",
+				"order-opc.tpl"
+			],
+			[
+				"op",
+				"order-opc.tpl"
+			],
+			[
+				"blocksear",
+				"css/modules/blocksearch/blocksearch.css"
+			],
+			[
+				"blockto",
+				"modules/blocktopmenu/blocktopmenu.tpl"
+			],
+			[
+				"blocks",
+				"modules/blocksearch/blocksearch.tpl"
+			],
+			[
+				"sh",
+				"modules/loyalty/views/templates/hook/shopping-cart.tpl"
+			],
+			[
+				"top",
+				"modules/blocksearch/blocksearch-top.tpl"
+			],
+			[
+				"o",
+				"default-bootstrap/order-opc.tpl"
+			],
+			[
+				"coment",
+				"default-bootstrap/js/modules/productcomments/js/productcomments.js"
+			],
+			[
+				"comen",
+				"default-bootstrap/modules/productcomments/productcomments.tpl"
+			],
+			[
+				"pro",
+				"default-bootstrap/product.tpl"
+			],
+			[
+				"super",
+				"default-bootstrap/css/modules/blocktopmenu/css/superfish-modified.css"
+			],
+			[
+				"globa",
+				"default-bootstrap/css/global.css"
+			],
+			[
+				"new-",
+				"default-bootstrap/order-opc-new-account.tpl"
+			],
+			[
+				"sho",
+				"default-bootstrap/shopping-cart.tpl"
+			],
+			[
+				"new-a",
+				"kart/themes/default-bootstrap2/order-opc-new-account.tpl"
+			],
+			[
+				"orde-op",
+				"default-bootstrap/order-opc.tpl"
+			],
+			[
+				"i",
+				"default-bootstrap/identity.tpl"
+			],
+			[
+				"auteti",
+				"default-bootstrap/authentication.tpl"
+			],
+			[
+				"shop",
+				"default-bootstrap/shopping-cart.tpl"
+			],
+			[
+				"global",
+				"default-bootstrap/global.tpl"
+			],
+			[
+				"new",
+				"order-opc-new-account.tpl"
+			],
+			[
+				"productcomen",
+				"js/modules/productcomments/js/productcomments.js"
+			],
+			[
+				"revi",
+				"modules/productcomments/productcomments_reviews.tpl"
+			],
+			[
+				"ide",
+				"identity.tpl"
+			],
+			[
+				"",
+				"css/order-opc.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true
+}
