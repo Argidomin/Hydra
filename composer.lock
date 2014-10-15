@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "31c0f8ee249e52f4fcd1396bc8120d9a",
+    "hash": "4d6f0d0365f35196d631f5709d71db38",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -1665,16 +1665,16 @@
         },
         {
             "name": "sonata-project/core-bundle",
-            "version": "2.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataCoreBundle.git",
-                "reference": "60bfa806faa332642a63215e3b6e3607c1e1b13e"
+                "reference": "6883f1fa0efbaa05cf670ee009514fd2d88d8ee8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/60bfa806faa332642a63215e3b6e3607c1e1b13e",
-                "reference": "60bfa806faa332642a63215e3b6e3607c1e1b13e",
+                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/6883f1fa0efbaa05cf670ee009514fd2d88d8ee8",
+                "reference": "6883f1fa0efbaa05cf670ee009514fd2d88d8ee8",
                 "shasum": ""
             },
             "require": {
@@ -1723,7 +1723,7 @@
             "keywords": [
                 "sonata"
             ],
-            "time": "2014-09-09 23:58:27"
+            "time": "2014-10-06 13:03:25"
         },
         {
             "name": "sonata-project/doctrine-orm-admin-bundle",
@@ -2359,6 +2359,7 @@
         "gedmo/doctrine-extensions": 20,
         "sonata-project/admin-bundle": 20,
         "sonata-project/doctrine-orm-admin-bundle": 20,
+        "sonata-project/core-bundle": 20,
         "doctrine/doctrine-fixtures-bundle": 20
     },
     "prefer-stable": false,
