@@ -1,0 +1,5 @@
+argidomin_hotel:
+    resource: "@ArgidominHotelBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

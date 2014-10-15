@@ -67,3 +67,11 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+#Configuracion de FOS User Bundle
+fos_user:
+    db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
+    firewall_name: main
+    user_class: Argidomin\HotelBundle\Entity\Usuarios\Usuarios
+
+#Fin del cofiguración de FOS UserBundle
