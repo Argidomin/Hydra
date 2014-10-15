@@ -14,7 +14,7 @@ use Doctrine\Common\Collections\ArrayCollection;
  * Hoteles
  *
  * @ORM\Table()
- * @ORM\Entity(repositoryClass="CasaPortuguesa\GestionHotelBundle\Entity\Repositories\HotelesRepository")
+ * @ORM\Entity()
   * @UniqueEntity("emailReservas")
  * 
  */

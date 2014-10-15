@@ -33,7 +33,6 @@ class UsuariosLoader extends AbstractFixture implements OrderedFixtureInterface,
 
 			$usuario->setUsername('Usuario'. $i);
 			$usuario->setEmail('usuario'.$i.'@localhost.lan');
-			$usuario->setRoles(array('ROLE_USUARIO'));
 			$usuario->setPassword($this->getPassword($usuario));
 
 			$usuario->setNombre($this->getNombre());

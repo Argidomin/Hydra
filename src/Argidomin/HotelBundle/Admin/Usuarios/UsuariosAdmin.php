@@ -29,10 +29,10 @@ class UsuariosAdmin extends Admin
             ->add(
                 'roles',
                 'choice',
-                ['multiple' => false, 'choices' => ['ROLE_USUARIO'=>'Usuario', 'ROLE_ADMIN'=>'Administrador'
-                    ]]
+                ['multiple' => true,
+                 'choices' => ['ROLE_USER'=>'Usuario', 'ROLE_ADMIN'=>'Administrador']
+                ]
                 );
-
     }
 
     // Fields to be shown on filter forms
@@ -43,7 +43,7 @@ class UsuariosAdmin extends Admin
             ->add('nombre')
             ->add('dni')
             ->add('roles',null, array(), 'choice', array(
-                    'choices' => array('ROLE_USUARIO'=>'Usuario', 'ROLE_ADMIN'=>'Administrador'))
+                    'choices' => array('ROLE_USER'=>'Usuario', 'ROLE_ADMIN'=>'Administrador'))
                 );
     }
 
@@ -59,7 +59,7 @@ class UsuariosAdmin extends Admin
                 'choice',
                 array(
                     'multiple' => true,
-                    'choices' => array('ROLE_USUARIO'=>'Usuario', 'ROLE_ADMIN'=>'Administrador', 'ROLE_USER'=>'Usuario'))
+                    'choices' => array('ROLE_USER'=>'Usuario', 'ROLE_ADMIN'=>'Administrador'))
                 );
 
         ;

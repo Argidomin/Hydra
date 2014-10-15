@@ -20,7 +20,7 @@ use Argidomin\HotelBundle\Entity\Base\Base;
  * Articulos
  *
  * @ORM\Table()
- * @ORM\Entity(repositoryClass="Argidomin\HotelBundle\Entity\Blog\ArticulosRepository")
+ * @ORM\Entity()
  * 
  */
 class Articulos extends Base 

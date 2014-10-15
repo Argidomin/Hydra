@@ -13,7 +13,7 @@ use Argidomin\HotelBundle\Entity\Base\ProductosBase as Productos;
  * Habitaciones
  *
  * @ORM\Table()
- * @ORM\Entity(repositoryClass="CasaPortuguesa\GestionHotelBundle\Entity\Repositories\ExtrasHotelRepository")
+ * @ORM\Entity()
  */
 class ExtrasHotel extends Productos
 {

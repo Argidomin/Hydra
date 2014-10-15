@@ -13,7 +13,7 @@ use Argidomin\HotelBundle\Entity\Base\CaracteristicasBase as Caracteristicas;
  * Habitaciones
  *
  * @ORM\Table()
- * @ORM\Entity(repositoryClass="CasaPortuguesa\GestionHotelBundle\Entity\Repositories\CaracteristicasHotelRepository")
+ * @ORM\Entity()
  */
 class CaracteristicasHotel extends Caracteristicas
 {

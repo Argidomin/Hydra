@@ -71,6 +71,7 @@ class Compras
     public function __construct()
     {
         $this->extras = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->idReserva = uniqid('HCP-');
     }
 
     /**
