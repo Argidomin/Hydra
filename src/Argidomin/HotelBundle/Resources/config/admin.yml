@@ -1,0 +1,109 @@
+services:
+#Datos de configuración de sonata admin.
+    sonata.admin.user:
+        class: Argidomin\HotelBundle\Admin\Usuarios\UsuariosAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Usuarios", label: "Usuarios" }
+        arguments:
+            - ~
+            - Argidomin\HotelBundle\Entity\Usuarios\Usuarios
+            - ~
+        calls:
+            - [ setTranslationDomain, [ArgidominHotelBundle]]
+
+    sonata.admin.post:
+        class: Argidomin\HotelBundle\Admin\Blog\ArticulosAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Articulos", label: "Articulos" }
+        arguments:
+            - ~
+            - Argidomin\HotelBundle\Entity\Blog\Articulos
+            - ~
+        calls:
+            - [ setTranslationDomain, [ArgidominHotelBundle]]
+            
+    sonata.admin.Hoteles:
+        class: Argidomin\HotelBundle\Admin\Hotel\HotelesAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Gestion de Casa Portuguesa", label: "Hoteles" }
+        arguments:
+            - ~
+            - Argidomin\HotelBundle\Entity\Hotel\Hoteles
+            - ~
+        calls:
+            - [ setTranslationDomain, [ArgidominHotelBundle]]
+
+    sonata.admin.HotelesHabitaciones:
+        class: Argidomin\HotelBundle\Admin\Hotel\HabitacionesAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Gestion de Casa Portuguesa", label: "Habitaciones de los Hoteles" }
+        arguments:
+            - ~
+            - Argidomin\HotelBundle\Entity\Hotel\Habitaciones
+            - ~
+        calls:
+            - [ setTranslationDomain, [ArgidominHotelBundle]] 
+
+    sonata.admin.PaquetesHotel:
+        class: Argidomin\HotelBundle\Admin\Hotel\PaquetesHotelAdmin
+        arguments: [~, Argidomin\HotelBundle\Entity\Hotel\PaquetesHotel, SonataAdminBundle:CRUD]
+        tags:
+            - {name: sonata.admin, manager_type: orm, group: "Gestion de Casa Portuguesa", label: "Paquetes"}
+        calls:
+            - [ setTranslationDomain, [ArgidominHotelBundle]] 
+
+
+    sonata.admin.CaracteristicasHabitaciones:
+        class: Argidomin\HotelBundle\Admin\Hotel\CaracteristicasHabitacionesAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Gestion de Casa Portuguesa", label: "Caracteristicas de las habitaciones" }
+        arguments:
+            - ~
+            - Argidomin\HotelBundle\Entity\Hotel\CaracteristicasHabitaciones
+            - ~
+        calls:
+            - [ setTranslationDomain, [ArgidominHotelBundle]]  
+
+    sonata.admin.HotelesCaracteristicas:
+        class: Argidomin\HotelBundle\Admin\Hotel\CaracteristicasHotelAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Gestion de Casa Portuguesa", label: "Caracteristicas de los Hoteles" }
+        arguments:
+            - ~
+            - Argidomin\HotelBundle\Entity\Hotel\CaracteristicasHotel
+            - ~
+        calls:
+            - [ setTranslationDomain, [ArgidominHotelBundle]]  
+
+    sonata.admin.ExtrasHotel:
+        class: Argidomin\HotelBundle\Admin\Hotel\ExtrasHotelAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Gestion de Casa Portuguesa", label: "Extras" }
+        arguments:
+            - ~
+            - Argidomin\HotelBundle\Entity\Hotel\ExtrasHotel
+            - ~
+        calls:
+            - [ setTranslationDomain, [ArgidominHotelBundle]]    
+
+    sonata.admin.Compras:
+        class: Argidomin\HotelBundle\Admin\Ventas\ComprasAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Ventas", label: "Compras" }
+        arguments:
+            - ~
+            - Argidomin\HotelBundle\Entity\Ventas\Compras
+            - ~
+        calls:
+            - [ setTranslationDomain, [ArgidominHotelBundle]]
+
+    sonata.admin.Reservas:
+        class: Argidomin\HotelBundle\Admin\Ventas\ReservasAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Ventas", label: "Reservas" }
+        arguments:
+            - ~
+            - Argidomin\HotelBundle\Entity\Ventas\Reservas
+            - ~
+        calls:
+            - [ setTranslationDomain, [ArgidominHotelBundle]]

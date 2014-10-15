@@ -1,6 +1,6 @@
 <?php
 
-namespace Argidomin\HotelBundle\Entity\Compras;
+namespace Argidomin\HotelBundle\Entity\Ventas;
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -8,9 +8,9 @@ use Doctrine\ORM\Mapping as ORM;
  * Reservas
  *
  * @ORM\Table()
- * @ORM\Entity(repositoryClass="Argidomin\HotelBundle\Entity\Compras\ComprasRepository")
+ * @ORM\Entity(repositoryClass="Argidomin\HotelBundle\Entity\Ventas\ReservasRepository")
  */
-class Compras
+class Reservas
 {
     /**
      * @var integer
@@ -51,19 +51,22 @@ class Compras
 
     /**
      * @ORM\ManyToMany(targetEntity="Argidomin\HotelBundle\Entity\Hotel\ExtrasHotel")
-     * @ORM\JoinTable(name="Compras_Extrashotel",
+     * @ORM\JoinTable(name="Reservas_extrasHotel",
      *      joinColumns={@ORM\JoinColumn(name="Paquetes_id", referencedColumnName="id")},
      *      inverseJoinColumns={@ORM\JoinColumn(name="Extras_id", referencedColumnName="id", unique=false)}
      *      )
      **/
     private $extras;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="Argidomin\HotelBundle\Entity\Hotel\Habitaciones")
+     **/
+    private $habitacion;
 
     /**
      * @ORM\ManyToOne(targetEntity="Argidomin\HotelBundle\Entity\Usuarios\Usuarios")
      **/
     private $usuario;
-
 
     /**
      * Constructor
@@ -87,7 +90,7 @@ class Compras
      * Set idReserva
      *
      * @param string $idReserva
-     * @return Compras
+     * @return Reservas
      */
     public function setIdReserva($idReserva)
     {
@@ -110,7 +113,7 @@ class Compras
      * Set estado
      *
      * @param string $estado
-     * @return Compras
+     * @return Reservas
      */
     public function setEstado($estado)
     {
@@ -133,7 +136,7 @@ class Compras
      * Set pagada
      *
      * @param boolean $pagada
-     * @return Compras
+     * @return Reservas
      */
     public function setPagada($pagada)
     {
@@ -156,7 +159,7 @@ class Compras
      * Set editable
      *
      * @param boolean $editable
-     * @return Compras
+     * @return Reservas
      */
     public function setEditable($editable)
     {
@@ -179,7 +182,7 @@ class Compras
      * Add extras
      *
      * @param \Argidomin\HotelBundle\Entity\Hotel\ExtrasHotel $extras
-     * @return Compras
+     * @return Reservas
      */
     public function addExtra(\Argidomin\HotelBundle\Entity\Hotel\ExtrasHotel $extras)
     {
@@ -209,10 +212,33 @@ class Compras
     }
 
     /**
+     * Set habitacion
+     *
+     * @param \Argidomin\HotelBundle\Entity\Hotel\Habitaciones $habitacion
+     * @return Reservas
+     */
+    public function setHabitacion(\Argidomin\HotelBundle\Entity\Hotel\Habitaciones $habitacion = null)
+    {
+        $this->habitacion = $habitacion;
+
+        return $this;
+    }
+
+    /**
+     * Get habitacion
+     *
+     * @return \Argidomin\HotelBundle\Entity\Hotel\Habitaciones 
+     */
+    public function getHabitacion()
+    {
+        return $this->habitacion;
+    }
+
+    /**
      * Set usuario
      *
      * @param \Argidomin\HotelBundle\Entity\Usuarios\Usuarios $usuario
-     * @return Compras
+     * @return Reservas
      */
     public function setUsuario(\Argidomin\HotelBundle\Entity\Usuarios\Usuarios $usuario = null)
     {
